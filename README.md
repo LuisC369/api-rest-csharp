@@ -6,7 +6,7 @@ Incluye además un **frontend en React (Vite)** que consume la API y permite adm
 
 ## 🎥 Video de demostración
 
-▶️ **[Ver video en YouTube](PEGA_AQUI_EL_ENLACE_DEL_VIDEO)**
+▶️ **[Ver video en YouTube](https://youtu.be/4lU7Xhz0Rpc)**
 
 ## Tecnologías
 
