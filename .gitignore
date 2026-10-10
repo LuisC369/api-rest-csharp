@@ -1,0 +1,21 @@
+# Carpetas de compilación
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+
+# Paquetes NuGet
+*.nupkg
+packages/
+
+# Logs y temporales
+*.log
+TestResults/

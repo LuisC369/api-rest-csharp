@@ -1,0 +1,43 @@
+@MiPrimerApi_HostAddress = http://localhost:5149
+
+GET {{MiPrimerApi_HostAddress}}/Clientes/ListarClientes
+Accept: application/json
+
+###
+
+GET {{MiPrimerApi_HostAddress}}/Clientes/ObtenerCliente/1
+Accept: application/json
+
+###
+
+POST {{MiPrimerApi_HostAddress}}/Clientes/CrearCliente
+Content-Type: application/json
+
+{
+  "nombre": "Ana",
+  "apellidos": "Lopez",
+  "telefono": "5555-1234"
+}
+
+###
+
+PUT {{MiPrimerApi_HostAddress}}/Clientes/ActualizarCliente/1
+Content-Type: application/json
+
+{
+  "nombre": "Ana Maria",
+  "apellidos": "Lopez",
+  "telefono": "5555-9999"
+}
+
+###
+
+GET {{MiPrimerApi_HostAddress}}/Empleados/ListarEmpleados
+Accept: application/json
+
+###
+
+GET {{MiPrimerApi_HostAddress}}/Puestos/ListarPuestos
+Accept: application/json
+
+###
